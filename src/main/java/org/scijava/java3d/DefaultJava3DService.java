@@ -98,7 +98,6 @@ public class DefaultJava3DService extends AbstractService implements
 		checkFile(files, new File(dir, "j3dutils.jar"));
 		checkFilePattern( files, dir, "j3d-core*");
 		checkFilePattern( files, dir, "vecmath*");
-		checkFilePattern( files, dir, "jogl*");
 		// Maybe libJ3DUtils.jnilib libJ3DAudio.jnilib 
 	}
 	
